@@ -19,4 +19,6 @@ This extension is made for debugging the Firefox Sync.
 
 3. Go to the bottom, find tabs row and choose `Records (table)` tab
 
-4. Choose what row you need (see clientName), select and copy all string, thats it!
+4. Choose what row you need (see clientName), select and copy all string
+
+5. Paste on textarea of page w/ label `Synced tabs JSON`, click `Convert` button, thats it!
