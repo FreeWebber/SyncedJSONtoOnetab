@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SyncedJSONtoOnetab</title>
+    <link rel=stylesheet href='css/style.css'/>
+</head>
+<body>
+    <div class=root>
+        <table>
+            <tr>
+                <td>
+                    <h4 class=ib>Synced tabs JSON</h4> &nbsp; &nbsp; <a href='README.md'>README.md</a>
+                    <div class='flex_container'>
+                        <textarea placeholder='paste JSON here and click "Convert"' class=input name=tabs></textarea>  &nbsp;
+                        <button class='btn convert_btn'>Convert</button> &nbsp; <img style=width:36px;visibility:hidden class=ref_loader src="img/l.svg"/></center>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Export</h4>
+                    <textarea style='display:none' placeholder='here will be links in Onetab format for export' class=input cols=100 rows=10 name=ot></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4 class=ib>Links</h4> (<span title=quantity class=qty></span>)
+                    <div class=html_links></div>
+                </td>
+            </tr>
+        </table>
+        <script src=js/jquery-3.7.1.min.js></script>
+        <script src=js/index.js></script>
+    </div>
+</body>
+</html>

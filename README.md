@@ -7,11 +7,14 @@ I found this gist https://gist.github.com/dpschen/f13399a880f1e0bf5a968a5aab6d86
 
 # How to use
 
-Open SyncedJSONtoOnetab.html in browser and just copy synced JSON of tabs to textarea and you get in output textarea Onetab formatted tabs.
+1. Clone or download this repo.
+2. Open `index.html` in browser (better in Chrome-based, if too many tabs - Firefox may freeze on sometime).
+3. Сopy `synced JSON` of tabs to textarea on page in section `Synced tabs JSON`.
+4. Click `Convert` button! In `Export` section, in textarea must appears links in `Onetab` format for copy. In Links section must appears links in HTML.
 
 ## How to get synced JSON of tabs
 
-1. Download and install "About Sync" Firefox extension
+1. Install "About Sync" Firefox extension
 https://addons.mozilla.org/en-US/firefox/addon/about-sync/
 This extension is made for debugging the Firefox Sync.
 
@@ -21,4 +24,6 @@ This extension is made for debugging the Firefox Sync.
 
 4. Choose what row you need (see clientName), select and copy all string
 
-5. Paste on textarea of page w/ label `Synced tabs JSON`, click `Convert` button, thats it!
+# TODO
+
+Group by days
