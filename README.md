@@ -20,7 +20,7 @@ This extension is made for debugging the Firefox Sync.
 
 2. Navigate in Firefox to `about:sync` *(Since this is not a valid URL, a markdown link is not possible)*
 
-3. Go to the bottom, find tabs row and choose `Records (table)` tab
+3. Go to the bottom, find `tabs` row and choose `Records (table)` tab
 
 4. Choose what row you need (see clientName), select and copy all string
 

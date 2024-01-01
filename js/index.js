@@ -20,8 +20,8 @@ download = function download(url, name){
 get_date = function get_date(){
     var d = new Date();
     var day = "0" + d.getDate();
-    var month = "0" + d.getMonth();
-    var date = (d.getYear()+'').substring(1, 3) +'.'+ month.substr(-2) +'.'+ day.substr(-2);
+    var month = "0" + d.getMonth()+1; //cl(month);
+    var date = (d.getYear()+'').substring(1, 3) +'.'+ month.substr(-2) +'.'+ day.substr(-2); cl(date);
     return date;
 } //cl(get_date());
 
